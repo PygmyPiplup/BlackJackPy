@@ -25,7 +25,7 @@ class Card(object):
         else:
             val = self.value
 
-        return "{} of {}".format(val, self.suit)
+        return (f"{val} of {self.suit}")
 
 
 class Deck(object):
