@@ -1,3 +1,5 @@
+import Card
+
 class Player(object):
     def __init__(self, name):
         self.name = name
@@ -20,7 +22,7 @@ class Player(object):
 
     # Display all the cards in the players hand
     def showHand(self):
-        print (f"{self.name}'s hand: {self.hand}")
+        print(f"{self.name}'s hand: {self.hand}")
         return self
 
     def discard(self):
